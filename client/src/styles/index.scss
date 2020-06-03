@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+}
+
+.center {
+  height: 85vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pb-0 {
+  padding-bottom: 0 !important;
+}
+
+@import "~react-md/src/scss/react-md";
+$md-primary-color: $md-teal-500;
+$md-secondary-color: $md-purple-a-400;
+@include react-md-everything;
